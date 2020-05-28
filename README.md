@@ -1,1 +1,1 @@
-# Landing page for beginners
+# Image gallery
