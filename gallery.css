@@ -1,0 +1,32 @@
+body {
+	margin:0;
+	padding: 0;
+	text-align: center;
+} 
+
+h1 {
+	font-size: 40px;
+}
+
+.images-container {
+	max-width: 1300px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill,300px);
+	grid-gap: 20px;
+	grid-auto-flow: row dense;
+	justify-content: center;
+}
+
+.image-card:nth-child(3){
+	grid-column-end: span 2;
+}
+
+.image-card:nth-child(5){
+	grid-column-end: span 2;
+	grid-row-end: span 2;
+}
+
+.image-card:nth-child(6){
+	grid-row-end: span 2;
+}
